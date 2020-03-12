@@ -1,0 +1,6 @@
+1- instalar node
+2- instalar angular -- npm install -g @angular/cli
+3 - Visual Code
+4 - npm install -g typescript
+5 - iniciar projeto  tsc -init
+6 - tsc -w
