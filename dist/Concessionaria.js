@@ -5,6 +5,9 @@ var Concessionaria = /** @class */ (function () {
         this.endereco = endereco;
         this.listaDeCarros = lista;
     }
+    Concessionaria.prototype.fornecerHorariosDeFuncionamento = function () {
+        return 'De Segunda a sexta das 8:18';
+    };
     Concessionaria.prototype.fornecerEndereco = function () {
         return this.endereco;
     };
