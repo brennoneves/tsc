@@ -1,8 +1,9 @@
 import Concessionaria from './Concessionaria'
 import {ConcessionariaDao} from './ConcessionariaDao'
 import Carro from './Carro'
+import { Dao } from './Dao'
 
-let dao = new ConcessionariaDao()
+let dao :Dao<Concessionaria> = new Dao<Concessionaria>()
 let y = new Carro('onix',4)
 let x = new Concessionaria('rua teste',[y])
 
